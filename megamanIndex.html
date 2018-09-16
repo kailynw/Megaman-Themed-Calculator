@@ -1,0 +1,36 @@
+<!--Created By: Kailyn Williams
+	Date: 9/14/2018-->
+
+<DOCTYPE html>
+<html>
+	<head>
+		<title>Megaman Calculator</title>
+		<link type="text/css" rel="stylesheet" href="css/megamanStylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Sarala" rel="stylesheet">
+	</head>
+	<body>
+		<form name="calculator" ">
+			<input type="text" name="displayBox" placeholder="0" class="displayBox"  disabled ><br>
+			<div class="container" align="center">
+				<input type="button" name="seven" class="seven" value=7 onclick="buttonDisplay(seven.value)">
+				<input type="button" name="eight" class="eight" value=8 onclick="buttonDisplay(eight.value)">
+				<input type="button" name="nine" class="nine" value=9 onclick="buttonDisplay(nine.value)">
+				<input type="button" name="add" class="add" value=+ onclick="buttonDisplay(add.value)"><br>
+				<input type="button" name="four" class="four" value=4 onclick="buttonDisplay(four.value)">
+				<input type="button" name="five" class="five" value=5 onclick="buttonDisplay(five.value)">
+				<input type="button" name="six" class="six" value=6 onclick="buttonDisplay(six.value)">
+				<input type="button" name="subtract" class="subtract" value=- onclick="buttonDisplay(subtract.value)"><br>
+				<input type="button" name="one" class="one" value=1 onclick="buttonDisplay(one.value)">
+				<input type="button" name="two" class="two" value=2 onclick="buttonDisplay(two.value)">
+				<input type="button" name="three" class="three" value=3 onclick="buttonDisplay(three.value)">
+				<input type="button" name="mult" class="mult" value=*  onclick="buttonDisplay(mult.value)"><br>
+				<input type="button" name="clear" class="clear" value=CE onclick="clearDisplay()">
+				<input type="button" name="decimal" class="decimal" value=. onclick="buttonDisplay(decimal.value)">
+				<input type="button" name="equals" class="equals" value== onclick="displayBox.value= eval(displayBox.value)">
+				<input type="button" name="divide" class="divide" value=/ onclick="buttonDisplay(divide.value)">
+			</div>
+		</form>
+	</body>
+
+	<script src="megaman.js" type="text/javascript" ></script>
+</html>

@@ -1,0 +1,117 @@
+body{
+	position: relative;
+	background: url('Images/megamanBackground.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+form{
+	margin-right: 750px;
+	margin-top: 50px;
+}
+.displayBox{
+	width:410px;
+	height: 125px;
+	margin-left:35%;
+	background-color: black;
+	color: white;
+	font-size:75px;
+	text-align: right;
+	border-radius:10px;
+}
+
+.container{
+	margin-top:15px;
+	display:grid;
+	grid-template-columns: 100px 100px 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px;
+	margin-left: 35%;
+	grid-gap:3px;
+
+}
+
+.seven,.eight,.nine,.add,.four,.five,.six,.subtract,.one,.two,.three,.mult,.clear,.decimal,.divide,.equals{
+font-size:60px;
+font-family: 'Sarala', sans-serif;
+border-radius:10px;
+background-color: ghostwhite;
+
+}
+
+.add:hover,.subtract:hover,.mult:hover,.clear:hover,.decimal:hover,.divide:hover,.equals:hover{
+	transition: ease-in .2s;
+	background-color: grey;
+	
+}
+
+.one:hover{
+	background: url(Images/megaman1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all ease-in .5s;
+	transform: scale(1.7);
+	
+}
+.two:hover{
+	background: url(Images/megaman2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all ease-in .5s;
+	transform: scale(1.7);
+	
+}
+.three:hover{
+	background: url(Images/megaman3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all ease-in .5s;
+	transform: scale(1.7);
+	
+}
+.four:hover{
+	background: url(Images/megaman4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all ease-in .5s;
+	transform: scale(1.7);
+	
+}
+.five:hover{
+	background: url(Images/megaman5.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all ease-in .5s;
+	transform: scale(1.7);
+}
+.six:hover{
+	background: url(Images/megaman6.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all ease-in .5s;
+	transform: scale(1.7);
+}
+.seven:hover{
+	background: url(Images/megman7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all ease-in .5s;
+	transform: scale(1.7);
+
+}
+.eight:hover{
+background: url(Images/megaman8.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all ease-in .5s;
+	transform: scale(1.7);
+}
+.nine:hover{
+background: url(Images/megaman9.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: all ease-in .5s;
+	transform: scale(1.7);
+}
+
