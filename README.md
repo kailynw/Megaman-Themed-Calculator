@@ -1,2 +1,2 @@
 # Megaman-Themed-Calculator
-All I can say is.... try it out!!
+Check out my website if you want to test it out! www.kailynw.com
